@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pet%20adoption/static/css/main.d131b658.css",
-    "main.js": "/pet%20adoption/static/js/main.dda68804.js",
-    "static/media/dog4.jpg": "/pet%20adoption/static/media/dog4.4b82666e86c137494dbe.jpg",
-    "static/media/dog2.jpg": "/pet%20adoption/static/media/dog2.c49bb9662e2801592ffb.jpg",
-    "static/media/dog1.jpg": "/pet%20adoption/static/media/dog1.d55ad06e011710b269de.jpg",
-    "static/media/cat1.jpg": "/pet%20adoption/static/media/cat1.db3a06976006b4858e1a.jpg",
-    "static/media/dog3.jpg": "/pet%20adoption/static/media/dog3.27cdf7bc81a245bc562a.jpg",
-    "static/media/cat3.jpg": "/pet%20adoption/static/media/cat3.9316aa9c38e0501ddab5.jpg",
-    "static/media/cat2.jpg": "/pet%20adoption/static/media/cat2.9efd4f2f54c14f401529.jpg",
-    "static/media/tablon2.jpg": "/pet%20adoption/static/media/tablon2.04c06ac1a29a0452752d.jpg",
-    "static/media/PerroGato.jpg": "/pet%20adoption/static/media/PerroGato.dd1e8d3af4b3c5a28213.jpg",
-    "index.html": "/pet%20adoption/index.html",
-    "main.d131b658.css.map": "/pet%20adoption/static/css/main.d131b658.css.map",
-    "main.dda68804.js.map": "/pet%20adoption/static/js/main.dda68804.js.map"
+    "main.css": "/pet-adoption/static/css/main.37826b84.css",
+    "main.js": "/pet-adoption/static/js/main.b91a7acb.js",
+    "static/media/dog4.jpg": "/pet-adoption/static/media/dog4.4b82666e86c137494dbe.jpg",
+    "static/media/dog2.jpg": "/pet-adoption/static/media/dog2.c49bb9662e2801592ffb.jpg",
+    "static/media/dog1.jpg": "/pet-adoption/static/media/dog1.d55ad06e011710b269de.jpg",
+    "static/media/cat1.jpg": "/pet-adoption/static/media/cat1.db3a06976006b4858e1a.jpg",
+    "static/media/dog3.jpg": "/pet-adoption/static/media/dog3.27cdf7bc81a245bc562a.jpg",
+    "static/media/cat3.jpg": "/pet-adoption/static/media/cat3.9316aa9c38e0501ddab5.jpg",
+    "static/media/cat2.jpg": "/pet-adoption/static/media/cat2.9efd4f2f54c14f401529.jpg",
+    "static/media/tablon2.jpg": "/pet-adoption/static/media/tablon2.04c06ac1a29a0452752d.jpg",
+    "static/media/PerroGato.jpg": "/pet-adoption/static/media/PerroGato.dd1e8d3af4b3c5a28213.jpg",
+    "index.html": "/pet-adoption/index.html",
+    "main.37826b84.css.map": "/pet-adoption/static/css/main.37826b84.css.map",
+    "main.b91a7acb.js.map": "/pet-adoption/static/js/main.b91a7acb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d131b658.css",
-    "static/js/main.dda68804.js"
+    "static/css/main.37826b84.css",
+    "static/js/main.b91a7acb.js"
   ]
 }
