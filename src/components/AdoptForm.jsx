@@ -133,7 +133,7 @@ const AdoptForm = () => {
                 
                 {formSend ? <SuccesMsg>Formulario enviado</SuccesMsg> : ''}
                 
-                <Button type='submit'>Enviar</Button>
+                <ButtonSend type='submit'>Enviar</ButtonSend>
                </WrapperForm>
        </FormContainer>
         )}
@@ -158,10 +158,18 @@ margin-right: auto;
 
 
 
+@media(max-width:700px){
+    display: flex;
+flex-direction: column;
+padding-left: 20px
+}
+
+
 
 
 
 h1{
+    padding-right: 20px;
   font-size: 3rem
 }
 
@@ -175,6 +183,11 @@ justify-content: center;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
+
+@media(max-width:700px){
+    display: flex;
+flex-direction: column;
+}
 
 `
 const Label = styled.label`
@@ -209,4 +222,30 @@ padding: 10px;
 const SuccesMsg = styled.p`
 color:green;
 margin-top: 10px;
+`
+const ButtonSend= styled.button`
+ width: 150px;
+ height: 50px;
+ background-color: #926B3F;
+ border:none;
+box-shadow: 1px 2px 15px 0px black;
+ color:white;
+ font-size: 1.3rem;
+ margin: 15px auto;
+ cursor:pointer;
+ border-radius: 10px;
+ transition: all 0.5s ease-out;
+ @media (max-width: 700px){
+  
+  height: 40px;
+  font-size: 1rem
+}
+
+&:hover{
+    background-color: #BA884E;
+    box-shadow: 1px 2px 15px 0px black inset; 
+
+    color:black
+
+}
 `
