@@ -9,6 +9,11 @@ flex-direction: column;
 justify-content:center;
 align-items: center;
 text-align: center;
+@media (max-widht:700px){
+  height: 50vh;
+}
+
+
 `
 const Place = styled.p`
 font-size: 1.5rem;
@@ -19,17 +24,17 @@ margin:5px 5px;
 font-size: 1.5rem;
 
 `
-const Img = styled.img`
-border-radius: 15px;
+// const Img = styled.img`
+// border-radius: 15px;
 
-width:100%
+// width:100%
 
-transition: all .5s ease
-&:hover{
-  transform: translateY(0.2);
-}
+// transition: all .5s ease
+// &:hover{
+//   transform: translateY(0.2);
+// }
 
-`
+// `
 const Card = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 font-family: 'Roboto', sans-serif;
@@ -56,6 +61,11 @@ box-shadow: 1px 2px 15px 0px black;
  cursor:pointer;
  border-radius: 10px;
  transition: all 0.5s ease-out;
+ @media (max-width: 700px){
+  margin-top: -30px;
+  height: 40px;
+  font-size: 1rem
+}
 
 &:hover{
     background-color: #BA884E;
@@ -82,9 +92,11 @@ display: block;
 font-weight: bold;
 padding: 10px;
 min-height: 10px;
-@media (max-width : 1500px){
+
+@media (max-width : 700px){
   font-size: 1rem;
  padding: 3px;
+ margin-top: -20px
 
 }
 
@@ -97,10 +109,21 @@ width:350px;
 padding: 5px 10px;
 border-radius: 10px;
 border: solid 2px black;
-@media (max-width : 700px){
-  font-size: 1rem;
+
+@media (max-width : 1600px){
+  
+  font-size: 1.2rem;
   height: 35px;
-  width: 200px;
+  width: 100%;
+  margin-top: -15px
+
+};
+@media (max-width : 700px){
+
+  font-size: 1rem;
+  height: 60%;
+  width: 90%;
+  margin-top: -35px
 }
 `
 const Textarea = styled.textarea`
@@ -111,17 +134,33 @@ border-radius: 10px;
 font-size: 1.2rem;
 padding: 5px 10px;
 border: solid 2px black;
+@media (max-width : 1600px){
+  
+  font-size: 1.2rem;
+  height: 85px;
+  width:100%;
+  margin-top: -15px
+
+};
+
+
 @media (max-width : 700px){
   font-size: 1rem;
-  height: 155px;
-  width: 200px;
+  height: 50px;
+  width: 90%;
+  margin-top: -50px
 }
 `
 const Form = styled.form`
 display: grid;
 justify-content: center;
 align-items: center;
-gap: 10px
+gap: 10px;
+@media (max-width: 700px){
+  width: 80%;
+  height: 80vh;
+  gap:1px
+}
 
 `
 const Banner = styled.div`
@@ -145,4 +184,4 @@ animation: color 5s infinite linear;
   100% { background: #FDEBD050; }
 }
 `
-export {Title, Wrapper, Card , Button, Par, Place, Img, Grid, Input,Form,Banner,Error, Textarea, Label}
+export {Title, Wrapper, Card , Button, Par, Place,  Grid, Input,Form,Banner,Error, Textarea, Label}

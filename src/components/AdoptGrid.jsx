@@ -19,10 +19,7 @@ const AdoptGrid = () => {
 
  
 
-  useEffect(()=>{
-      setAnimal(mascotas)
-  
-  },[])
+ 
 
   return (
     <div>

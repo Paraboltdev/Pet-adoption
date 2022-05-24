@@ -13,8 +13,7 @@ const AddForm = ({setShowForm}) => {
   const [age, setAge] = useState("");
   const [breed, setBreed] = useState("");
   const [text, setText] = useState("");
-  
-  console.log(location)
+
   
 
   const expName = /^[a-zA-ZÀ-ÿ\s]{1,40}$/;
@@ -46,7 +45,7 @@ const AddForm = ({setShowForm}) => {
   };
 
   return (
-    <div>
+    <Wrapper>
       
 
       <Form>
@@ -91,10 +90,10 @@ const AddForm = ({setShowForm}) => {
         />
 
         <Button onClick={handleSubmit} type="submit">
-          Add
+          Enviar
         </Button>
       </Form>
-    </div>
+    </Wrapper>
   );
 };
 

@@ -74,7 +74,7 @@ const AdoptForm = () => {
         
          setFormSend(true)
          setTimeout(()=>{setFormSend(false)
-         navigate('/')},700)
+         navigate('/github.io.pet-adoption')},700)
          
 
          

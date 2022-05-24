@@ -48,12 +48,29 @@ const ModalContainer = styled.div`
   position: relative;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
  
+  @media (max-width : 1200px){
+  
+  padding: 15px;
+  height: 90vh;
+  margin-top: -55px
+
+};
 
 @media (max-width : 700px){
-  width: 300px;
+  width: 60%;
   padding: 15px;
+  height: 90vh;
+  margin-top: -55px
+
+};
+@media (max-width : 400px){
+  margin-right: 25%
+
 }
 `
 const ModalHeader = styled.div`
@@ -62,6 +79,11 @@ const ModalHeader = styled.div`
   justify-content: space-between;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  @media (max-width : 700px){
+    margin-bottom: 5px;
+  padding-bottom: 5px;
+
+}
  
   
 

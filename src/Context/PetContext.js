@@ -7,7 +7,7 @@ export const PetContext = createContext()
 
 
 const PetProvider = ({children})=>{
-    const [animal, setAnimal]= useState([])
+    const [animal, setAnimal]= useState(mascotas)
     const [showForm, setShowForm]= useState(null)
 
 
